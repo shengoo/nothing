@@ -1,11 +1,9 @@
-import React from 'react';
+import React, {Component} from 'react'
 
-class Nothing extends React.Component{
-	render(){
-		return (
-			<div>Nothing</div>
-		);
-	}
+export default class extends Component {
+  render() {
+    return <div>
+      <h2>Welcome to React components</h2>
+    </div>
+  }
 }
-
-export default Nothing;
